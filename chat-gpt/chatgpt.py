@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 prompt = "Hello, can you help me with something?"
 response = openai.Completion.create(
