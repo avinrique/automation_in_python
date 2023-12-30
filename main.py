@@ -28,7 +28,7 @@ while True:
                 break
 
     #lock screen
-    if "lock screen" in text:
+    if "lock" in text and "screen" in text:
         syscmds.lockscreen()
     if "unlock" in text:
         syscmds.unlock_screen()
@@ -55,7 +55,7 @@ while True:
         os.system("gnome-system-monitor")
 
     #youtube
-    if 'open youtube' in text:
+    if 'open' in text and "youtube" in text:
             #media.youtube.youutube()
             x = speect_text.usemic("which song you want to play","")
             x=x.split()
